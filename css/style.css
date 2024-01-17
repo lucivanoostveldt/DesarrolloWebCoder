@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+/* selector universal */
+*{
+    font-family: 'Afacad', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos generales */
+h1{
+    color: darksalmon;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    color: black;
+    text-decoration: none;
+}
+section a img{
+    width: 10%;
+}
+
+/* clases utilitarias */
+.text-pink{
+    color: darksalmon;
+}
+.parrafo{
+    text-align: center;
+}
+.full{
+    width: 100%;
+}
+.buttom{
+    background-color: white;
+    color: darksalmon;
+    padding: 5px 9px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-color: darksalmon;}
+.pink{
+    color: darksalmon;
+}
+
+/* selectores descendentes */
+header img{
+    width: 100%;
+}
+body nav img{
+    width: 120px;
+}
+section img{
+    width: 120px;
+}
+/* 2 - selector de clase */
+/* login */
+/* acá en el login no me deja acomodar bien los imputs */
+.box-login{
+    background-color: white;
+    padding: 8px 0px;
+    position: sticky;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/* login letras */
+    .box-login ul li a{
+        text-decoration: none;
+        color: rgb(39, 39, 39);
+        font-size: 16px;
+    }
+.box-login ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-login form{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-left: 10px;
+}
+/* menu */
+.menu{
+    background-color: rgb(255, 237, 237);
+}
+    .menu img{
+        width: 30%;
+    } 
+    .menu ul li{
+        margin-right: 20px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: rgb(39, 39, 39);
+        font-size: 1.3em;
+        font-weight: 500;
+        display: flex;
+    }
+    .menu ul li a:hover{
+        color: darksalmon;
+    }
+.image-presentation{
+    width: 100%;
+}
+
+/* index */
+.main section h1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.main section p{
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 5%;
+    font-size: 1.2em;
+}
+.main h2{
+    margin-top: 5%;
+}
+
+/* productos destacados */
+.productos-destacados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+}
+    figure.productos{
+        border: 2px solid rgb(255, 237, 237);
+        border-radius: 10px;
+        width: 20%;
+        margin-bottom:5px;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    figure.productos img{
+        width: 100%;
+    }
+    figure.productos figcaption{
+        color: darksalmon;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+    figure.productos a{
+        background-color: darksalmon;
+        color: white;
+        padding: 5px 9px;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+    }
+    figure.productos p{
+        font-size: 1.1em;
+        line-height: 1em;
+        margin-bottom: 20px;
+    }
+.buttom-showmore{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.filters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* página de contacto con grid */
+.contact{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);  
+  grid-template-rows: 15% 85%;
+  grid-template-areas: 
+  "title title title"
+  "data social-media text";
+  gap: 15px;
+}
+.contact .title{
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .data{
+    grid-area: data;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+.contact .social-media{
+    grid-area: social-media;
+    display: flex;
+    flex-direction: column;
+}
+.contact .social-media a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.contact .text{
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/* página carrito */
+.carrito section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.carrito section h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.carrito section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.state{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+    margin-top: 15%;
+}
+
+/* página preguntas */
+.preguntas section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.preguntas section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.preguntas section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.preguntas section div p{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.preguntas section a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3%;
+    font-size: 1.1em;
+}
+
+/* categorias, el grid no se me acomoda correctamente*/
+.categories{
+    display: grid;
+    grid-template-columns: 45% repeat(27%);
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "cadaq cadad cadad"
+    "cadaq arosaq arosad";
+    gap: 0px;
+}
+.categories .cadaq{
+    grid-area: cadaq;
+}
+.categories .cadad{
+    grid-area: cadad;
+}
+.categories .arosaq{
+    grid-area: arosaq;
+}
+.categories .arosad{
+    grid-area: arosad;
+}
+
+/* footer */
+footer{
+    background-color: rgb(255, 237, 237);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer div a img{
+    width: 20px;
+}
+
+/* INICIA RESPONSIVE */
+@media (width < 950px){
+    /* index */
+    .productos-destacados figure.productos{
+        width: 30%;
+    }
+}
+@media (width < 850px){
+    /* index */
+    .productos-destacados figure.productos{
+        width: 44%;
+    }
+}
+@media (width < 650px){
+    /* index */
+    .productos-destacados figure.productos{
+        width: 100%;
+    }
+    /* contacto */
+    .contact{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "title"
+        "data"
+        "social-media" 
+        "text";
+    }
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ahava Joyas Productos</title>
+        <!-- favicon -->
+     <link rel="shortcut icon" href="../Imagenes/index ahava.png" type="image/x-icon">
+     <!-- link BS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity=
+     "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!-- link a CSS -->
+     <link rel="stylesheet" href="../css/style.css"/>
+    </head>
+ <body>
+    <!-- stars nav-->
+    <nav class="navbar bg-body-tertiary box-login">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control ms-2" type="search" placeholder="buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" 
+              height="16" fill="black" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+            </svg></button>
+          </form>
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CREAR CUENTA / INICIAR SESIÓN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <nav class="navbar navbar-expand-md menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" 
+          href="../index.html">
+            <img src="../imagenes/AHAVA-copia.jpg" alt="logo ahava">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/preguntas.html">PREGUNTAS FRECUENTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/carrito.html">Carrito</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- ends nav-->
+   
+    <main>
+        <!-- stars into -->
+        <section>
+            <h1>PRODUCTOS</h1>
+        </section>
+        <!-- ends intro-->
+
+        <!-- stars filters-->
+        <section class="filters">
+            <tr>
+                <th>Filtrar</th>
+               <select  name="Ordenar por">
+                <option>Ordenar por</option>
+                <option value="menor precio">menor precio</option>
+                <option value="mayor precio">mayor precio</option>
+                <option value="nuevos">nuevos</option>
+                <option value="mas vendidos">mas vendidos</option>
+               </select>
+            </tr>
+        </section>
+        <!-- ends filters-->
+
+
+        <!-- stars products-->
+        <div>
+         <section class="productos-destacados">
+            <figure class="productos">
+                <img src="../Imagenes/ARITOS AQ.jpg" alt="Dos pares de aritos de
+                acero quirúrgico plateado, un par con forma de lunas y 
+                otro par con forma de estrellas">
+                <figcaption>aritos Luna y Estrella</figcaption>
+                <p class="parrafo">Acero quirúrgico</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 1.jpg" alt="Dos pares de aritos de
+                acero quirúrgico dorado, un par con forma de corazón y 
+                otro par con forma de bolitas">
+                <figcaption>aritos Punto y Corazón</figcaption>
+                <p class="parrafo">Acero dorado</p>
+            <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 12.jpg" alt="cadenita forma
+                de pico de acero dorado con strass">
+                <figcaption>cadenita evelyn</figcaption>
+                <p class="parrafo">Acero dorado</p>
+            <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 11.jpg" alt="cadenita de
+                tres corazónes de acero quirúrgico plateado">
+                <figcaption>cadenita tres corazónes</figcaption>
+                <p class="parrafo">Acero quirúrgico</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 2.jpg" alt="Dos pares de aritos de
+                acero quirúrgico dorado, un par con forma de corazón y 
+                otro par con forma de estrellas">
+                <figcaption>aritos estrella y corazón</figcaption>
+                <p class="parrafo">Acero dorado</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 3.jpg" alt="cadenita con 
+                forma de perro de globo, de acero quirúrgico dorado">
+                <figcaption>cadenita puppy pum</figcaption>
+                <p class="parrafo">Acero dorado</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 4.jpg" alt="Cadenita con dije
+                de corazón tornasol de acero quirúrgico plateado">
+                <figcaption>cadenita cristal</figcaption>
+                <p class="parrafo">Acero quirúrgico</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 5.jpg" alt="par de aritos con
+                forma de hojita de acero quirúrgico plateado">
+                <figcaption>aritos hojita</figcaption>
+                <p class="parrafo">Acero quirúrgico</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 6.jpg" alt="cadenita con dije
+                de hojita con strass de acero quirúrgico">
+                <figcaption>Cadenita ramito</figcaption>
+                <p class="parrafo">Acero quirúrgico</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 9.jpg" alt="Dos pares de aritos de
+                acero quirúrgico dorado, un par con forma de avión y 
+                otro par con forma de estrellas">
+                <figcaption>Aritos space</figcaption>
+                <p class="parrafo">Acero dorado</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 13.jpg" alt="anillo con 
+                forma de ola de acero quirúrgico plateado">
+                <figcaption>anillo ola</figcaption>
+                <p class="parrafo">Acero quirúrgico</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 10.jpg" alt="cadenita con
+                corazónes de cristal, de acero quirúrgico dorado">
+                <figcaption>cadenita love</figcaption>
+                <p class="parrafo">Acero dorado</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 7.jpg" alt="cadenita con dije de
+                estrella de acero quirúrgico plateado">
+                <figcaption>cadenita estrella</figcaption>
+                <p class="parrafo">Acero quirúrgico</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 8.jpg" alt="Dos pares de aritos de
+                acero quirúrgico dorado, un par con forma de mariposas y 
+                otro par con forma de flores">
+                <figcaption>aritos spring</figcaption>
+                <p class="parrafo">Acero dorado</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 14.jpg" alt="cadenita de 
+                acero blanco con forma de luna y estrella">
+                <figcaption>cadenita night</figcaption>
+                <p class="parrafo">Acero blanco</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+            <figure class="productos">
+                <img src="../imagenes/prod 15.jpg" alt="cadenita de 
+                acero dorado con dije de pluma">
+                <figcaption>cadenita pluma</figcaption>
+                <p class="parrafo">Acero dorado</p>
+                <a href="#">agregar al carrito</a>
+            </figure>
+    </section>
+    <section class="buttom-showmore">
+        <input class="buttom" type="button" value="mostrar más">
+    </section>
+        <!-- ends products-->
+    </main>
+   <!-- stars footer-->
+   <footer>
+    <!-- stars social icons-->
+    <div>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="../Imagenes/logo facebook.png" alt="seguinos en facebook"></a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="../Imagenes/logo instagram.png" alt="seguinos en instagram"></a>
+                <p>Copyright AHAVA joyas - 2024. 
+                    Todos los derechos reservados.
+                    Defensa de las y los consumidores. 
+                    Para reclamos ingresá acá. / Botón de arrepentimiento</p>
+    </div>
+    <!-- ends social icons-->
+</footer>
+<!-- ends footer-->
+<!-- JS de BS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity=
+"sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

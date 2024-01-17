@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ahava Joyas Carrito de Compras</title>
+        <!-- favicon -->
+     <link rel="shortcut icon" href="../Imagenes/index ahava.png" type="image/x-icon">
+     <!-- link BS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity=
+     "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!-- link a CSS -->
+     <link rel="stylesheet" href="../css/style.css"/>
+    </head>
+ <body>
+    <!-- stars nav-->
+    <nav class="navbar bg-body-tertiary box-login">
+      <div class="container-fluid">
+        <form class="d-flex" role="search">
+          <input class="form-control ms-2" type="search" placeholder="buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" 
+            height="16" fill="black" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></button>
+        </form>
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CREAR CUENTA / INICIAR SESIÓN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-md menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" 
+          href="../index.html">
+            <img src="../imagenes/AHAVA-copia.jpg" alt="logo ahava">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/preguntas.html">PREGUNTAS FRECUENTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/carrito.html">Carrito</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- ends nav-->
+  
+    <main class="carrito">
+        <!-- stars into -->
+        <section>
+            <h1>CARRITO</h1>
+        </section>
+        <!-- ends intro-->
+
+        <!-- stars products-->
+        <section>
+            <h2>CARRITO DE COMPRAS</h2>
+            <!-- <table>
+                <tr>
+                    <th>PRODUCTO</th>
+                </tr>
+                <tr>
+                    <th>SUBTOTAL</th>
+                </tr>
+            </table> -->
+            <div>
+                <h3>PRODUCTO</h3>
+                <h3>SUBTOTAL</h3>
+            </div>
+        </section>
+        <section class="state">
+            <input type="button" value="El carrito de compras está vacío">
+        </section>
+        <!-- ends products-->
+    </main>
+    <!-- stars footer-->
+   <footer>
+    <!-- stars social icons-->
+    <div>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="../Imagenes/logo facebook.png" alt="seguinos en facebook"></a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="../Imagenes/logo instagram.png" alt="seguinos en instagram"></a>
+                <p>Copyright AHAVA joyas - 2024. 
+                    Todos los derechos reservados.
+                    Defensa de las y los consumidores. 
+                    Para reclamos ingresá acá. / Botón de arrepentimiento</p>
+    </div>
+    <!-- ends social icons-->
+</footer>
+<!-- ends footer-->
+<!-- JS de BS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity=
+"sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
