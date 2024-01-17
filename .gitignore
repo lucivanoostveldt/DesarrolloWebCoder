@@ -1,0 +1,6 @@
+prototipos/
+node_modules/
+*.psd
+*.ai
+vscode/
+passwords.tx
