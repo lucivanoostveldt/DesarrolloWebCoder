@@ -33,7 +33,7 @@ section a img{
 .full{
     width: 100%;
 }
-.buttom{
+.button{
     background-color: white;
     color: darksalmon;
     padding: 5px 9px;
@@ -42,9 +42,17 @@ section a img{
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
-    border-color: darksalmon;}
+    border-color: darksalmon;
+}
 .pink{
     color: darksalmon;
+}
+.centered{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* selectores descendentes */
@@ -65,8 +73,6 @@ section img{
     padding: 8px 0px;
     position: sticky;
     width: 100%;
-    display: flex;
-    flex-direction: row;
 }
 /* login letras */
     .box-login ul li a{
@@ -74,27 +80,17 @@ section img{
         color: rgb(39, 39, 39);
         font-size: 16px;
     }
-.box-login ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box-login form{
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-margin-left: 10px;
-}
 /* menu */
 .menu{
     background-color: rgb(255, 237, 237);
 }
     .menu img{
-        width: 30%;
+        width: 150px;
     } 
     .menu ul li{
         margin-right: 20px;
+        display: flex;
+        flex-direction: row;
     }
     .menu ul li a{
         text-decoration: none;
@@ -102,6 +98,7 @@ margin-left: 10px;
         font-size: 1.3em;
         font-weight: 500;
         display: flex;
+        flex-direction: row;
     }
     .menu ul li a:hover{
         color: darksalmon;
