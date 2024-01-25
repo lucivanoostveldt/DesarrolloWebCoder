@@ -4,3 +4,5 @@ node_modules/
 *.ai
 vscode/
 passwords.txt
+*.map
+steps.txt
