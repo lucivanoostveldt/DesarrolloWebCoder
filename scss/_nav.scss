@@ -1,0 +1,55 @@
+// nav login
+.box-login{
+    background-color: $white;
+    padding: 8px 0px;
+    position: sticky;
+    width: 100%;
+    ul{ 
+        li{
+             a{
+        text-decoration: none;
+        color: $grey;
+        font-size: $sm;
+             }
+        }
+    }
+}
+// nav menu
+.menu{
+    background-color: $secondaryColor;
+    img{
+        width: 150px;
+    } 
+    ul li{
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    a{
+        text-decoration: none;
+        color: $grey;
+        font-size: $md;
+        font-weight: $regular;
+        display: flex;
+        flex-direction: row;
+    }
+    :hover{
+        color: $mainColor;
+    }
+}
+.image-presentation{
+    width: 100%;
+}
+// footer
+footer{
+    background-color: rgb(255, 237, 237);
+    padding-top: 8px;
+    padding-bottom: 1px;
+    div{
+        a{
+            img{
+        width: 20px;
+            }
+        }
+    }
+}
