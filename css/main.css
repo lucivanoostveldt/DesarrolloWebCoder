@@ -95,6 +95,22 @@ section img {
   margin-bottom: 0px;
 }
 
+.menu a {
+  font-family: "Afacad", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  padding: 20px;
+  color: rgb(39, 39, 39);
+}
+
+.box-login ul li a {
+  font-family: "Afacad", sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 10px;
+  color: rgb(39, 39, 39);
+}
+
 .box-login {
   background-color: rgb(255, 254, 254);
   padding: 8px 0px;

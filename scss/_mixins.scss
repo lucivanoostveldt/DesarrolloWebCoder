@@ -1,0 +1,14 @@
+@mixin textos($size,$line,$padding,$color){
+    font-family: $mainFont;
+    font-size: $size;
+    line-height: $line;
+    padding: $padding;
+    color: $color;
+}
+
+.menu a{
+    @include textos(1.3em,1.4em,20px,$grey)
+}
+.box-login ul li a{
+    @include textos(1em,1.4em,10px,$grey)
+}
