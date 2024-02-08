@@ -17,25 +17,3 @@
     margin-top: 5%;
     }
 }
-// categorias
-.categories{
-    display: grid;
-    grid-template-columns: 45% 27% 27%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas:
-    "cadaq cadad cadad"
-    "cadaq arosaq arosad";
-    gap: 0px;
-    .cadaq{
-        grid-area: cadaq;
-    }
-    .cadad{
-        grid-area: cadad;
-    }
-    .arosaq{
-        grid-area: arosaq;
-    }
-    .arosad{
-        grid-area: arosad;
-    }
-}
