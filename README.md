@@ -26,4 +26,4 @@ Explora nuestra colección y descubre cómo AHAVA transforma cada detalle en una
 
 LINKS 
 Link al dominio de vercel: https://ahavajy.vercel.app/
-Link a la página de GitHub: 
+Link a la página de GitHub: https://lucivanoostveldt.github.io/DesarrolloWebCoder/
